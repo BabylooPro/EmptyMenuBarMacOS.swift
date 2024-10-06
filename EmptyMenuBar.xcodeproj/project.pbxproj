@@ -35,16 +35,6 @@
 			path = EmptyMenuBar;
 			sourceTree = "<group>";
 		};
-		86E097F22CB3350600446A43 /* EmptyMenuBarTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EmptyMenuBarTests;
-			sourceTree = "<group>";
-		};
-		86E097FC2CB3350600446A43 /* EmptyMenuBarUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EmptyMenuBarUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				86E097E02CB3350500446A43 /* EmptyMenuBar */,
-				86E097F22CB3350600446A43 /* EmptyMenuBarTests */,
-				86E097FC2CB3350600446A43 /* EmptyMenuBarUITests */,
 				86E097DF2CB3350500446A43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				86E097F12CB3350600446A43 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				86E097F22CB3350600446A43 /* EmptyMenuBarTests */,
-			);
 			name = EmptyMenuBarTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				86E097FB2CB3350600446A43 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				86E097FC2CB3350600446A43 /* EmptyMenuBarUITests */,
 			);
 			name = EmptyMenuBarUITests;
 			packageProductDependencies = (
@@ -401,6 +383,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +411,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
